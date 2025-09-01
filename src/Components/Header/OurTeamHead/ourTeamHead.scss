@@ -8,7 +8,6 @@
     padding: 200px 0;
   }
   .ourTeamTitle {
-    // padding: $padding-xl-3 0;
     background-color: $shade-light-bg;
     @include fontSettings($font-size-xxl, $font-bold, $neutral-light, true); //size, font-family, color, copy
   }

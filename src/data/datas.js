@@ -82,42 +82,42 @@ export const locations = [
   { id: 4, text: "PALM JUMEIRAH" }
 ];
 
-import backImg1 from "../../src/images/RecommendCards/RecomendCardSmall/recomendImg1.png";
+import backImg1 from "../../src/images/RecommendCards/RecomendCardSmall/recomendImg1.jpg";
 import backImgHD1 from "../../src/images/RecommendCards/recommendCardHD/recommendCard1.jpg";
 import investCardNowImg1 from "../../src/images/RecommendCards/InvestNowCardImages/investNowCardImg.jpg";
 import cardQR1 from "../../src/images/RecommendCards/RecommendedCardsQR/promisingQR.jpg";
 
-import backImg2 from "../../src/images/RecommendCards/RecomendCardSmall/recomendImg2.png";
+import backImg2 from "../../src/images/RecommendCards/RecomendCardSmall/recomendImg2.jpg";
 import backImgHD2 from "../../src/images/RecommendCards/recommendCardHD/recommendCard2.jpg";
 import investCardNowImg2 from "../../src/images/RecommendCards/InvestNowCardImages/investNowCardImg2.jpg";
 import cardQR2 from "../../src/images/RecommendCards/RecommendedCardsQR/promisingQR2.jpg";
 
-import backImg3 from "../../src/images/RecommendCards/RecomendCardSmall/recomendImg3.png";
+import backImg3 from "../../src/images/RecommendCards/RecomendCardSmall/recomendImg3.jpg";
 import backImgHD3 from "../../src/images/RecommendCards/recommendCardHD/recommendCard3.jpg";
 import investCardNowImg3 from "../../src/images/RecommendCards/InvestNowCardImages/investNowCardImg3.jpg";
 import cardQR3 from "../../src/images/RecommendCards/RecommendedCardsQR/promisingQR3.jpg";
 
-import backImg4 from "../../src/images/RecommendCards/RecomendCardSmall/recomendImg4.png";
+import backImg4 from "../../src/images/RecommendCards/RecomendCardSmall/recomendImg4.jpg";
 import backImgHD4 from "../../src/images/RecommendCards/recommendCardHD/recommendCard4.jpg";
 import investCardNowImg4 from "../../src/images/RecommendCards/InvestNowCardImages/investNowCardImg4.jpg";
 import cardQR4 from "../../src/images/RecommendCards/RecommendedCardsQR/promisingQR4.jpg";
 
-import backImg5 from "../../src/images/RecommendCards/RecomendCardSmall/recomendImg5.png";
+import backImg5 from "../../src/images/RecommendCards/RecomendCardSmall/recomendImg5.jpg";
 import backImgHD5 from "../../src/images/RecommendCards/recommendCardHD/recommendCard5.jpg";
 import investCardNowImg5 from "../../src/images/RecommendCards/InvestNowCardImages/investNowCardImg5.jpg";
 import cardQR5 from "../../src/images/RecommendCards/RecommendedCardsQR/promisingQR5.jpg";
 
-import backImg6 from "../../src/images/RecommendCards/RecomendCardSmall/recomendImg6.png";
+import backImg6 from "../../src/images/RecommendCards/RecomendCardSmall/recomendImg6.jpg";
 import backImgHD6 from "../../src/images/RecommendCards/recommendCardHD/recommendCard6.jpg";
 import investCardNowImg6 from "../../src/images/RecommendCards/InvestNowCardImages/investNowCardImg6.jpg";
 import cardQR6 from "../../src/images/RecommendCards/RecommendedCardsQR/promisingQR6.jpg";
 
-import backImg7 from "../../src/images/RecommendCards/RecomendCardSmall/recomendImg7.png";
+import backImg7 from "../../src/images/RecommendCards/RecomendCardSmall/recomendImg7.jpg";
 import backImgHD7 from "../../src/images/RecommendCards/recommendCardHD/recommendCard7.jpg";
 import investCardNowImg7 from "../../src/images/RecommendCards/InvestNowCardImages/investNowCardImg7.jpg";
 import cardQR7 from "../../src/images/RecommendCards/RecommendedCardsQR/promisingQR7.jpg";
 
-import backImg8 from "../../src/images/RecommendCards/RecomendCardSmall/recomendImg8.png";
+import backImg8 from "../../src/images/RecommendCards/RecomendCardSmall/recomendImg8.jpg";
 import backImgHD8 from "../../src/images/RecommendCards/recommendCardHD/recommendCard8.jpg";
 import investCardNowImg8 from "../../src/images/RecommendCards/InvestNowCardImages/investNowCardImg8.jpg";
 import cardQR8 from "../../src/images/RecommendCards/RecommendedCardsQR/promisingQR8.jpg";

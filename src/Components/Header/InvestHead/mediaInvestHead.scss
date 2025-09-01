@@ -2,7 +2,7 @@
 @include media-max(phablet) {
   .investHeader {
     @include flex(center, center, column, null, null);
-    height: 100vh;
+    height: 500px;
   }
   .investHeader::after {
     content: "";

@@ -1,8 +1,18 @@
 @use "../../../GlobalStyle/mainScss.scss" as *;
 
+@include media-max(phablet) {
+  .ourTeamHead {
+    height: 500px;
+    .ourTeamTitle {
+      padding: 235px 0;
+    }
+  }
+}
+
 @include media-max(phone) {
   .ourTeamHead {
     position: relative;
+    height: 500px;
   }
   .ourTeamHead::after {
     content: "";

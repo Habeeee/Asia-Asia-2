@@ -1,10 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import useResponsiveImage from "../../../Hooks/useResponsiveImage";
 
 import bigLogo from "../../../images/bigLogo.png";
 import Button from "../../Buttons/Button";
 
 import headerBack from "../../../images/headerBackgroundImages/headerBack.png";
+import headerBackMobile from "../../../images/headerBackgroundImages/mobileHeadBg/mobileHeadBg.jpg";
 
 import "./header.scss";
 import "./mediaHeader.scss";
@@ -14,8 +16,13 @@ const Header = () => {
   const userString = localStorage.getItem("user");
   const user = JSON.parse(userString) || null;
 
+  const bg = useResponsiveImage(headerBack, headerBackMobile);
+
+  console.log(bg, "bgimage");
+  
+
   return (
-    <header className="homeHeader" style={{ backgroundImage: `url(${headerBack})`, content: "" }}>
+    <header className="homeHeader" style={{ backgroundImage: `url(${bg})`, content: "" }}>
       {user ? (
         <>
           <div className="bigLogo">

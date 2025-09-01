@@ -1,11 +1,17 @@
 @use "../../../GlobalStyle/mainScss.scss" as *;
 
+@include media-max(phablet) {
+  .ourJourneyHead {
+    height: 500px;
+    .ourJourneyTitle {
+      padding: 234px 0;
+    }
+  }
+}
+
 @include media-max(phone) {
   .ourJourneyHead {
     position: relative;
-    .ourJourneyTitle {
-      padding: 236px 0;
-    }
   }
   .ourJourneyHead::after {
     content: "";

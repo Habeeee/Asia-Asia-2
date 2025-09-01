@@ -12,13 +12,11 @@
 .investPagesOne {
   .investPagesOneContent {
     .fromButton {
-      @include flex(null, null, null, null, 10px);
-      // default settings (flex), mutable arguments (justify-content=null, align-items=center, flex=direction=null, flex-wrap=null, gap)
       margin-bottom: 35px;
       .investPagesOneFromButton,
       .thisLocationButton,
       .active {
-        @include button(null, transparent, $shade-dark, $font-size-lg-v2, $font-regular, none);
+        @include button(null, transparent, $shade-dark, 14px, $font-regular, none);
         // default setting (cursor: pointer;, transition: 0.1s ease-in;) mutable arguments (border-radius, background-color, color, font-size, font-family, border)
         &:hover {
           @include hoverButton(null, $sky-bg);
@@ -132,7 +130,7 @@
           margin-bottom: $space-lg-4;
         }
         .pImportant {
-          @include fontSettings($font-size-md, $font-regular, $shade-dark, true);
+          @include fontSettings(16px, $font-regular, $shade-dark, true);
           //size, font-family, color, copy
         }
         .importantButton {

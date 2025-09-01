@@ -2,12 +2,15 @@
 
 .videoContent {
   @include widthHeight(100%, 501px); // width, height
-  @include flex(center); //flex, justify-content, align-items=null, flex=direction=null, flex-wrap=null, gap=null
+  @include flex(center); 
+  //flex, justify-content, align-items=null, flex=direction=null, flex-wrap=null, gap=null
   overflow: hidden;
   position: relative;
   background-color: $shade-dark-bg;
+
   video {
     opacity: 1;
+    
   }
   img {
     transition: all 1s;

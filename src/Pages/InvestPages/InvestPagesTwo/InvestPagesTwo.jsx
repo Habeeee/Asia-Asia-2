@@ -22,7 +22,6 @@ export default function InvestPagesTwo() {
   const { cardInfo, fromInvestOrHome } = location.state || {};
 
   console.log(param);
-  
 
   if (!user) {
     navigate(`/sign-in`);
