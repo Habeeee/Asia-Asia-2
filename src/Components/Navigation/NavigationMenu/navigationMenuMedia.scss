@@ -49,24 +49,6 @@
       z-index: 100;
       background-color: $neutral-light;
       transform: translateX(-220px);
-      .navBar {
-        justify-content: flex-start;
-        margin-left: 10px;
-        ul {
-          display: flex;
-          flex-direction: column;
-          gap: 10px;
-          li {
-            a {
-              padding: 0 10px 5px 0;
-              font-family: $font-medium;
-            }
-            a:focus {
-              color: $sky;
-            }
-          }
-        }
-      }
     }
   }
 }

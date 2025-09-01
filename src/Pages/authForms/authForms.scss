@@ -12,13 +12,14 @@
 .verefCodeForm,
 .createAccForm {
   background-image: url("../../images/authFormsImg/authFormsBg.jpg");
-  @include bgConfig(100%, 100vh);
+  @include bgConfig(100%);
   .signInFormContent,
   .signUpFormContent,
   .verefCodeFormContent,
   .createAccFormContent {
     height: 100vh;
     @include flex(space-between, center);
+    // default settings (flex), mutable arguments (justify-content=null, align-items=center, flex=direction=null, flex-wrap=null, gap)
     .signInFormContentBg,
     .signUpFormContentBg,
     .verefCodeSignUpFormContentBg,
@@ -32,45 +33,49 @@
       width: 450px;
       background-color: #ffffff;
       @include flex(null, center, column);
+      // default settings (flex), mutable arguments (justify-content=null, align-items=center, flex=direction=null, flex-wrap=null, gap)
+
       border-radius: 30px;
       .formTitle {
         font-size: $font-size-xxl;
-        font-family: "Montserrat-Bold";
+        font-family: $font-bold;
         text-transform: uppercase;
       }
       .formContent {
         @include flex(null, null, column);
+        // default settings (flex), mutable arguments (justify-content=null, align-items=center, flex=direction=null, flex-wrap=null, gap)
         width: 100%;
         padding: 0 20px;
         .formInput {
           margin: 0 0 $margin-lg 0;
           @include flex(null, null, column);
+          // default settings (flex), mutable arguments (justify-content=null, align-items=center, flex=direction=null, flex-wrap=null, gap)
           text-align: left;
           margin-bottom: 144px;
           .formLabel {
-            font-family: "Montserrat-Medium";
+            font-family: $font-medium;
             font-size: $font-size-md-3;
             margin-bottom: $margin-xs-7;
           }
           .input {
-            font-size: $font-size-md;
+            font-size: 16px;
             padding: 14px 20px;
             border-radius: 33px;
-            border: 1px solid #c2c2c2;
-            font-family: "Montserrat-Regular";
+            border: 1px solid $stone-bg;
+            font-family: $font-regular;
           }
 
           .showError,
           .hideError {
             color: red;
-            font-family: "Montserrat-Regular";
+            font-family: $font-regular;
             margin: 5px 0;
           }
 
           .forgetPassword {
-            font-family: "Montserrat-Regular";
-            font-size: $font-size-lg-v2;
-            color: #3b6fec;
+            font-family: $font-regular;
+            font-size: 14px;
+            color: $sky;
             margin-top: 12px;
           }
         }
@@ -95,25 +100,27 @@
   }
   .success {
     @include flex(null, center, column);
+    // default settings (flex), mutable arguments (justify-content=null, align-items=center, flex=direction=null, flex-wrap=null, gap)
     width: 622px;
     border-radius: 50px;
     padding: 55px;
-    background-color: #ffffff;
-    position: absolute;
+    background-color: $neutral-light-bg;
+    position: fixed;
     top: 50%;
     left: 50%;
     z-index: 5;
     transform: translate(-50%, -50%);
     .successContent {
       @include flex(null, center, column);
+      // default settings (flex), mutable arguments (justify-content=null, align-items=center, flex=direction=null, flex-wrap=null, gap)
       gap: 26px;
       width: 378px;
       .pSuccess {
-        font-family: "Montserrat-Medium";
+        font-family: $font-medium;
         font-size: $font-size-xl-v2;
       }
       .spanSuccess {
-        font-family: "Montserrat-Regular";
+        font-family: $font-regular;
       }
     }
   }

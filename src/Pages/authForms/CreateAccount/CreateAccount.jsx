@@ -147,7 +147,7 @@ export default function CreateAccount() {
       </div>
       {success && (
         <div className="successMain">
-          <div onClick={() => setSuccess(false)} className="successBg" />
+          <div onClick={() => setSuccess(true)} className="successBg" />
           <div className="success">
             <div className="successContent">
               <img src={successImg} alt="success" />

@@ -1,7 +1,22 @@
-@use "../../../GlobalStyle/variables" as *;
+@use "../../../GlobalStyle/mainScss.scss" as *;
 
-@include media-max(phablet){
-    .navBar{
-        // display: none;
+@include media-max(phablet) {
+  .navBar {
+    justify-content: flex-start;
+    margin-left: 10px;
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      li {
+        a {
+          padding: 0 0 5px 0 !important;
+          font-family: $font-medium;
+        }
+        a:focus {
+          color: $sky;
+        }
+      }
     }
+  }
 }

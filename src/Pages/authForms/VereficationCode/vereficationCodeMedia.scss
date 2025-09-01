@@ -1,0 +1,7 @@
+@use "../../../GlobalStyle/mainScss.scss" as *;
+
+@include media-max(phablet-v2) {
+  .success {
+    width: 100% !important;
+  }
+}

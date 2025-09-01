@@ -90,7 +90,7 @@
             border-radius: 50%;
             .blueResult {
               --angle: 0deg;
-              background: conic-gradient(#4d5bf9 0% var(--angle), #e0e0e0 0%);
+              background: conic-gradient($sky-bg 0% var(--angle), #e0e0e0 0%);
               @include widthHeight(inherit, inherit);
               border-radius: inherit;
             }

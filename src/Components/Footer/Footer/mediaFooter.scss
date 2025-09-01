@@ -24,8 +24,12 @@
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       .helpServiceList,
-      .navigationFootList{
+      .navigationFootList {
         justify-items: center;
+      }
+      .helpServiceListTitle,
+      .helpFootListTitle {
+        margin-bottom: 15px;
       }
       .socialNetwork {
         .pSocialNetwork {

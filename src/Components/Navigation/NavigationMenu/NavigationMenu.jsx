@@ -130,7 +130,9 @@ const NavigationMenu = () => {
   };
 
   function bodyBlock(value) {
-    return (document.body.style.overflow = value);
+    document.body.style.overflow = value;
+    document.documentElement.style.overflow = value;
+    return value;
   }
   const handleBurgerMenuActive = () => {
     if (burgerAnimating) return;

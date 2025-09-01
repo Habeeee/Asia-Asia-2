@@ -5,8 +5,10 @@ import { useFormik } from "formik";
 import { useLocation, useNavigate } from "react-router-dom";
 
 import successImg from "../../../images/authFormsImg/authFormsIcon/success.svg";
-import "../authForms.scss";
 import Button from "../../../Components/Buttons/Button";
+
+import "../authForms.scss";
+import "./vereficationCodeMedia.scss";
 
 export default function VereficationCode() {
   const [success, setSuccess] = useState(() => {
@@ -119,7 +121,6 @@ export default function VereficationCode() {
                   </div>
                 </div>
                 <Button type="submit" text={"VERIFY"} name={"signUpVerifyButton"} />
-                
               </div>
             </form>
           </div>

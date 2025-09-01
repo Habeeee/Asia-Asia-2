@@ -10,6 +10,12 @@
   }
 }
 
+@include media-max(phablet) {
+  .investPagesOneButton {
+    display: none;
+  }
+}
+
 @include media-max(phone-sm) {
   .mainCardBottom {
     @include flex(null, null, column, null, 8px);

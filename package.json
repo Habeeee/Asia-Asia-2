@@ -11,7 +11,8 @@
     "preview": "vite preview",
     "server": "json-server --watch src/data/db.json --port 3002",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "dev": "vite --host"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.1",

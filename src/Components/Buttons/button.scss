@@ -111,7 +111,7 @@
 }
 
 .successButton {
-  @include button(100px, $sky-bg, $neutral-light, $font-size-lg-v2, $font-medium);
+  @include button(100px, $sky-bg, $neutral-light, 16px, $font-medium);
   // default setting(cursor: pointer;, transition: 0.1s ease-in; ) mutable arguments(border-radius, background-color, color, font-size, font-family, border)
   width: 100%;
   padding: 14px 0;

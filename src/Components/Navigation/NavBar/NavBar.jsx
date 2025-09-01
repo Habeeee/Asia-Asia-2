@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import "./navBar.scss";
-import "./NavBarMedia.scss";
+import "./navBarMedia.scss";
 
 const NavBar = () => {
   return (
