@@ -29,7 +29,7 @@
 
     .investPagesOneContentInfo {
       .mainCard {
-        @include flex(null, null, column, null, 314px);
+        @include flex(null, null, column, null, 243px);
         // default settings (flex), mutable arguments (justify-content=null, align-items=center, flex=direction=null, flex-wrap=null, gap)
         @include bgConfig(100%);
         // default settings (background-repeat,background-position, background-size) mutable arguments (width, height)

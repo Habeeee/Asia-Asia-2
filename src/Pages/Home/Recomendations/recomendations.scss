@@ -1,7 +1,7 @@
 @use "../../../GlobalStyle/mainScss.scss" as *;
 
 .recomendation {
-  margin-top: $space-between-elements;
+  margin-top: 32px;
   .recomendationTitle {
     width: 100%;
     @include flex(space-between, center);

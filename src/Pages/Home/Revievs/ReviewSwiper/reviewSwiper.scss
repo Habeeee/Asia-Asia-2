@@ -1,7 +1,8 @@
-@use "../../../../GlobalStyle/variables" as *;
+@use "../../../../GlobalStyle/mainScss.scss" as *;
 
 .swiper {
   max-width: 1440px;
+  border-radius: 20px;
 }
 
 .mySwiper {

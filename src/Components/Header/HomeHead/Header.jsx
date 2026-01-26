@@ -18,9 +18,6 @@ const Header = () => {
 
   const bg = useResponsiveImage(headerBack, headerBackMobile);
 
-  console.log(bg, "bgimage");
-  
-
   return (
     <header className="homeHeader" style={{ backgroundImage: `url(${bg})`, content: "" }}>
       {user ? (

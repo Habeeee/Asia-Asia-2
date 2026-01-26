@@ -6,7 +6,7 @@
 .investPagesOne,
 .investPagesTwo {
   box-shadow: inset 0px 12px 20px -22px;
-  padding-top: $space-lg;
+  padding-top: 27px;
   .fromButton {
     --var-autoGap: clamp(3px, 4vw, 10px);
     @include flex(null, null, null, wrap, var(--var-autoGap));

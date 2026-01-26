@@ -7,7 +7,7 @@
   @include button(20px, $stone, $neutral-light, $font-size-md, $font-regular, none);
   // (default - pointer, 0.1s ease-in) / border, bgColo, color, fontSize, fontFamily, border
   padding: 14px 0;
-  margin-top: $space-md-v3;
+  margin-top: $space-between-elements;
 }
 
 %base-review-font {
@@ -19,6 +19,9 @@
 .reviews {
   margin-top: $space-between-elements;
   @extend %base-review-font; //size, font-family, color, copy
+  .reviewsTitle {
+    font-size: 22px;
+  }
   .reviewBox {
     .bgFocus {
       @include bgFixedAndColor(99); // z-index = 99
